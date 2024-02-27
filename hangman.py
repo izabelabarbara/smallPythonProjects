@@ -40,4 +40,5 @@ def wisielec(word):
 words = ['kotek','krowa','mucha','zul','smietnik','zuledwa','smietniki']
 word = words[random.randint(0,len(words)-1)]
 
+# Running the game
 wisielec(word)
