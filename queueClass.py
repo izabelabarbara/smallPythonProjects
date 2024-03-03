@@ -3,7 +3,7 @@ class Queue:
         self.items = []
 
     def is_empty(self):
-        return sellf.items == []
+        return self.items == []
 
     def enqueue(self, item):
         self.items.insert(0, item)
